@@ -28,7 +28,7 @@ public class HomePageTest {
     @AfterClass
     public static void tearDown() throws IOException {
         var sourceFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
-        FileUtils.copyFile(sourceFile, new File("..\\Diploma\\tmp\\screenshot.png"));
+        FileUtils.copyFile(sourceFile, new File("..\\Diploma\\tmp_home\\screenshot.png"));
         driver.quit();
     }
 // ----------------------------------------------------------------------------------------------------------------------
